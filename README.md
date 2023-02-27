@@ -8,9 +8,9 @@ Il task consiste nel creare lo scheletro di una singola applicazione in python 3
 - [x] almeno un processo in grado di esporre una sorta di API http in grado di fornire, ad esempio, la somma generata prelevandola dal dataset (_Non ricordando la nuova libreria di cui mi avevi parlato, ho utilizzato Flask. La route per la chiamata get e' a: http://127.0.0.1:4567/getSum_)
 
 Con:
-- [x] gestione della concorrenza con l'utilizzo di threads o multiprocesses (_Ho utilizzato la libreria threading di python3_)
+- [x] gestione della concorrenza con l'utilizzo di threads o multiprocesses (_Ho utilizzato la libreria threading di python3. Ho creato una classe che estende i Thread appositamente per la chiamata http, dato che il funzionamento asincrono della libreria requests non e' comodissimo_)
 - [x] gestione delle eccezioni (_Le uniche eccezioni che mi sembravano possibili erano la pressione di ctrlC da parte dell'utente e un eventuale errore di connessione quando viene effettuata la richiesta http_)
-- [ ] verifica dei processi attivi ed eventuale gestione del sub process morto
+- [x] verifica dei processi attivi ed eventuale gestione del sub process morto
 - [x] gestione dello shutdown pulito dell'applicazione in caso di elaborazioni in corso in un sub processo (_Ho gestito la pressione di ctrlC da parte dell'utente, e rendendo i Thread dei "Daemon", vengono terminati quando viene terminato il padre_)
 
 Possibilmente:
