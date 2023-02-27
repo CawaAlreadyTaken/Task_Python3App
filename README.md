@@ -5,7 +5,7 @@ Riporto il testo del task, con alcune note:
 Il task consiste nel creare lo scheletro di una singola applicazione in python 3 composta da:
 - [x] almeno un un processo in grado di acquisire in modo asincrono un dato (ad esempio un post http, una connessione socket, la pressione di un tasto, etc) con un delay artificiale significativo per simulare complessità e carico ed in grado di popolare una semplice struttura dati di tipo timeserie con i dati ricevuti (timestamp e valore) (_Ho creato brevemente un backend su un mio server che risponda dopo 2 secondi di delay con un numero casuale tra [10 e 25]_)
 - [x] almeno un processo/funzione in grado di elaborare la time serie in ram sommando ad esempio i valori richiamabile e schedulabile (_Il tempo di schedule e' specificabile nel costruttore della classe_)
-- [x] almeno un processo in grado di esporre una sorta di API http in grado di fornire, ad esempio, la somma generata prelevandola dal dataset (_Non ricordando la nuova libreria di cui mi avevi parlato, ho utilizzato Flask. La route per la chiamata get e' a: http://127.0.0.1:4567/getSum_)
+- [x] almeno un processo in grado di esporre una sorta di API http in grado di fornire, ad esempio, la somma generata prelevandola dal dataset (_Non ricordando la nuova libreria di cui mi avevi parlato, ho utilizzato Flask. La route per la chiamata get e' a: http://127.0.0.1:5000/getSum_)
 
 Con:
 - [x] gestione della concorrenza con l'utilizzo di threads o multiprocesses (_Ho utilizzato la libreria threading di python3. Ho creato una classe che estende i Thread appositamente per la chiamata http, dato che il funzionamento asincrono della libreria requests non e' comodissimo_)
