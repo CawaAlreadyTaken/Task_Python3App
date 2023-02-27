@@ -19,4 +19,4 @@ Possibilmente:
 - [ ] abbozzando la generazione di metriche di funzionamento per tools tipo prometheus (_Questo punto non mi era ben chiaro: ho cercato prometheus e ho circa capito cosa sia, ma non saprei come generare metriche di funzionamento per tool simili_)
 
 Sarebbe ottimo:
-- [x] se l'applicazione fosse in un repository github completa di yaml docker compose utilizzando alpine linux con virtualenv e tutto quello che ne consegue (_Non mi era ben chiaro come mai proprio alpine linux. In ogni caso, non ho mai lavorato troppo con i docker e ho dovuto informarmi_)
+- [x] se l'applicazione fosse in un repository github completa di yaml docker compose utilizzando alpine linux con virtualenv e tutto quello che ne consegue (_Non ho mai lavorato troppo con i docker e ho dovuto informarmi. Potrei aver sbagliato nel setup, in ogni caso sarei curioso di capire cosa ho sbagliato dato che i docker li ho sempre ritenuti utili. Grazie in anticipo_)
