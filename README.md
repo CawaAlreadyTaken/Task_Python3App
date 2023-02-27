@@ -10,13 +10,13 @@ Il task consiste nel creare lo scheletro di una singola applicazione in python 3
 Con:
 - [x] gestione della concorrenza con l'utilizzo di threads o multiprocesses
 - [x] gestione delle eccezioni
-- [] verifica dei processi attivi ed eventuale gestione del sub process morto
+- [ ] verifica dei processi attivi ed eventuale gestione del sub process morto
 - [x] gestione dello shutdown pulito dell'applicazione in caso di elaborazioni in corso in un sub processo
 
 Possibilmente:
 - [x] senza scrivere nulla su disco
 - [x] utilizzando pandas/numpy e il loro supporto alle timeseries
-- [] abbozzando la generazione di metriche di funzionamento per tools tipo prometheus
+- [ ] abbozzando la generazione di metriche di funzionamento per tools tipo prometheus
 
 Sarebbe ottimo:
 - [x] se l'applicazione fosse in un repository github completa di yaml docker compose utilizzando alpine linux con virtualenv e tutto quello che ne consegue
