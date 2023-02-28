@@ -37,7 +37,7 @@ class MakeRequest(Thread):
             self.updateData(int(response.text))
             print(f"[*] Data acquired correctly. Data length: {len(response.content)}") # Response.content ritorna i bytes
         else:
-            print(f"[!] Error in data acquisition. Status code: {response.status}", file=stderr)
+            print(f"[!] Error in data acquisition. Status code: {response.status_code}", file=stderr)
 
     def run(self):
         self.getData()
